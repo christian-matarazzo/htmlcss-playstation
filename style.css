@@ -80,9 +80,14 @@ img {
 
 
 .ps-plus-banner {
-    background-color: #bebebe; 
+    background-color: #bebebe;
+    display:block; 
 }
 
+
+.play-now {
+  background-color: rgb(22, 28, 59);
+}
 /* --- QUERIES --- */
 
 
