@@ -1,11 +1,84 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bg-image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 5%; 
+    transform: translateY(-50%); 
+
+    
+    width: 5%; 
+    min-width: 300px; 
+    z-index: 2;
+}
+
+.returnal-banner {
+    width: 75%; 
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.hero-text {
+    color: white;
+    font-family: sans-serif;
+}
+
+/* --- QUERIES ;)  (let's see if i remember) --- */
+
+
+@media (max-width: 1200px) {
+    .hero-content {
+        width: 45%; 
+        left: 5%;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
 }
 
 
-btn {
+@media (max-width: 577px) {
+    .hero-container {
+        height: 500px; 
+    }
 
-    color: black;
+    .bg-image {
+        height: 100%;
+        object-position: center top;
+    }
+
+    .hero-content {
+        width: 90%; 
+        left: 5%;
+        top: 60%; 
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
 }
+
