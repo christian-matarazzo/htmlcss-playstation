@@ -41,12 +41,6 @@ img {
 }
 
 
-.returnal-banner {
-  width: 75%;
-  height: auto;
-  margin-bottom: 2rem;
-}
-
 .it-takes-two-logo {
 
 
@@ -83,6 +77,11 @@ img {
   opacity: 1;
 }
 
+
+
+.ps-plus-banner {
+    background-color: #bebebe; 
+}
 
 /* --- QUERIES --- */
 
