@@ -40,10 +40,45 @@ img {
     margin-bottom: 2rem;
 }
 
+.it-takes-two-logo {
+
+  
+     width: 55%; 
+    height: auto;
+    margin-bottom: 2rem;
+
+
+}
+
 .hero-text {
     color: white;
     font-family: sans-serif;
 }
+
+.playstation-product {
+    text-align: center;
+    padding-bottom: 15px;
+    opacity: 0.6; 
+}
+
+
+.playstation-product img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto 15px auto;
+}
+
+.playstation-product h5 {
+    font-size: 0.85rem;
+    color: #1f1f1f;
+    font-weight: 600;
+}
+
+.playstation-product.active {
+    border-bottom: 3px solid #0070d1; 
+    opacity: 1;
+}
+
 
 /* --- QUERIES ;)  (let's see if i remember) --- */
 
