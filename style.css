@@ -161,7 +161,7 @@ img {
 .form-control-custom {
     background: transparent;
     border: none;
-    border-bottom: 2px solid rgba(71, 5, 5, 0.2);
+    border-bottom: 2px solid rgba(71, 5, 5, 0);
     border-radius: 0;
     color: rgb(255, 255, 255);
     width: 100%;
@@ -171,7 +171,7 @@ img {
 
 .form-control-custom:focus {
     outline: none;
-    border-bottom-color: #fff;
+    border-bottom-color: rgb(74, 138, 201);
 }
 
 .qrcode-number{
