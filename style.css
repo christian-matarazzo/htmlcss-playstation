@@ -145,6 +145,36 @@ img {
 
 }
 
+/* login page try */
+
+.bg-dark {
+    background-color: #1a1e20;
+    max-width: 900px;
+}
+
+.login-screen {
+    min-height: 100vh;
+    background: radial-gradient(circle, #3f72a6 0%, #000000 100%);
+}
 
 
+.form-control-custom {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(71, 5, 5, 0.2);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px 0;
+    transition: border-color 0.3s;
+}
+
+.form-control-custom:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+
+.qrcode-number{
+    letter-spacing: 1rem;
+}
 
